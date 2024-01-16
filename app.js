@@ -71,9 +71,48 @@ document.write("<b>How are you</b>")
 document.write("<br>")
 
 document.write("<u>How are you</u>")
+// LOOPS
+document.write("<h1>JAVASRCIPT LOOPS</h1>")
+for (let i = 0; i < 10; i++)
+{
+    document.write("for loop  <br>")
+}
 
+document.write("<h3>While loop</h3>")
+i = 0;
+while(i < 10){
+    document.write("while loop <br>")
+i++;
+}
+document.write("<h3> do While loop</h3>")
+let j = 0;
+do{
+    j++
+    document.write("do while loop <br>")
 
+}
+while(j < 10)
 
+document.write("<h3>for in</h3>")
+
+let fruite = {
+    name : "apple",
+    color : "red"
+};
+
+for(let key in fruite){
+    document.write(key, fruite[key]);
+}
+
+document.write("<h3>for of</h3>")
+let names = ["aiman","kainat","arooj"];
+for(let index in names)
+{
+    document.write(index, names[index])
+}
+for(let name of names){
+    document.write("name")
+}
 
 
 
